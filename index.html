@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+
+    <!-- Creates board buttons -->
+    <div class="game-buttons">
+        <button class="board-buttons" id="top-left">top-left</button>
+        <button class="board-buttons" id="top-mid">top-mid</button>
+        <button class="board-buttons" id="top-right">top-right</button>
+        <br>
+        <button class="board-buttons" id="mid-left">mid-left</button>
+        <button class="board-buttons" id="mid-mid">mid-mid</button>
+        <button class="board-buttons" id="mid-right">mid-right</button>
+        <br>
+        <button class="board-buttons" id="bot-left">bot-left</button>
+        <button class="board-buttons" id="bot-mid">bot-mid</button>
+        <button class="board-buttons" id="bot-right">bot-right</button>
+    </div>
+
+    <!-- Creates the tic tac toe borders -->
+    <div class="left-vert"></div>
+    <div class="right-vert"></div>
+    <div class="top-horizontal"></div>
+    <div class="bot-horizontal"></div>
+
+    <!-- Game beginning prompt -->
+    <div class="user-selection">
+        <p id="prompt">Select a letter</p>
+        <button class="selection-button" id="x-button">x</button>
+        <button class="selection-button" id="o-button">o</button>
+    </div>
+
+    <!-- New Game Button -->
+    <button id="new-game-btn">New Game</button>
+    <button id="best-move-btn">Reveal Best Move</button>
+    <!-- turn prompt -->
+    <p id="turn-prompt"></p>
+    <!-- links the script -->
+    <script src="app.js"></script>
+</body>
+</html>
